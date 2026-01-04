@@ -61,7 +61,7 @@ const Portfolio = () => {
   const totalSlides = projects.length;
 
   return (
-    <section className="min-h-screen text-white py-20 px-4 md:px-20 relative overflow-hidden mt-135">
+    <section className="min-h-screen text-white py-20 px-4 md:px-20 relative overflow-hidden -mt-135">
 
         <div className='max-w-7xl mx-auto '>
       <div className="flex gap-5 items-center mb-12">

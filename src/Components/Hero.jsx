@@ -93,9 +93,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="h-screen bg-zinc-950">
+    <section className="h-screen bg-zinc-950 relative overflow-hidden">
       <motion.div
-        className="fixed inset-0 pointer-events-none z-1"
+        className="absolute inset-0 pointer-events-none z-1"
         style={{
           background: useTransform(
             [mouseXNorm, mouseYNorm],
@@ -370,7 +370,7 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-      <Capabilities />
+      
         
     </section>
   );
