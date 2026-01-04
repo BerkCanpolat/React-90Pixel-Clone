@@ -8,8 +8,6 @@ import {
 import { useEffect, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Sidebar from "./Sidebar";
-import Capabilities from "./Capabilities";
-import Portfolio from "./Portfolio";
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -39,13 +37,18 @@ const Hero = () => {
   );
 
   const logoX = useTransform(scrollY, [0, 500], [isMobile ? 0 : 450, 0]);
+  const logoYStart = isMobile ? 20 : 0;
 
-  const logoYFinal = isMobile ? -372 : -415;
-  const logoY = useTransform(
+  const logoYFinal = isMobile ? -43 : -44;
+  const logoYRaw = useTransform(
     scrollY,
     [0, 500],
-    [isMobile ? 150 : 50, logoYFinal]
+    [logoYStart, logoYFinal]
   );
+
+const logoY = useTransform(logoYRaw, (latest) => `${latest}vh`);
+
+
   const logoScale = useTransform(scrollY, [0, 500], [isMobile ? 2 : 5, 1]);
 
   const textTranslateX = isMobile ? "-40%" : "-160%";
@@ -145,7 +148,7 @@ const Hero = () => {
           x: "-50%",
           left: "50%",
         }}
-        className="fixed top-0 md:top-2 h-25 z-50 border border-white/10 backdrop-blur-xl bg-[#303136] shadow-2xl"
+        className="fixed top-2 md:top-2 h-25 z-50 border border-white/10 backdrop-blur-xl bg-[#303136] shadow-2xl"
       />
 
       <div className="flex items-center justify-center h-screen">
