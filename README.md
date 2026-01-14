@@ -1,16 +1,60 @@
-# React + Vite
+🚀 90Pixel Website – Frontend Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern frontend geliştirme pratiklerini geliştirmek ve gerçek bir ajans web sitesinin etkileşimli kullanıcı deneyimini anlamak amacıyla hazırlanmıştır.
 
-Currently, two official plugins are available:
+Proje, 90Pixel web sitesini referans alarak, birebir kopyalamak yerine tasarım, animasyon ve kullanıcı etkileşimlerini kendi teknik yaklaşımımla yeniden üretme hedefiyle geliştirilmiştir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚠️ Bu çalışma ticari amaçlı değildir, tamamen öğrenme ve portföy odaklıdır.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Proje Özeti
 
-## Expanding the ESLint configuration
+- Modern ve animasyon ağırlıklı bir landing page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Scroll ve mouse etkileşimlerine duyarlı UI
+
+- Dinamik header & logo animasyonları
+
+- Mobil ve masaüstü uyumlu responsive tasarım
+
+- Component tabanlı, okunabilir frontend yapısı
+
+  
+
+🎯 Öne Çıkan Özellikler
+
+- Mouse takip eden logo animasyonu
+Hero alanında logo, kullanıcının mouse hareketlerini takip edecek şekilde konumlanır.
+
+- Scroll tabanlı animasyonlar
+Sayfa scroll edildikçe:
+
+Logo animasyonlu şekilde header alanının ortasına taşınır
+
+Bölümler yumuşak geçişlerle ekrana gelir
+
+- Etkileşimli menü yapısı
+Yan butonlar ile açılan animasyonlu menüler ve geçişler
+
+- Modern UI & Motion yaklaşımı
+Framer Motion kullanılarak:
+
+- Daha akıcı geçişler
+
+- Doğal animasyon hissi
+
+
+
+🧱 Kullanılan Teknolojiler
+
+- React
+
+- Vite
+
+- Tailwind CSS
+
+- Framer Motion
+
+- Swiper
+
+- React Icons
