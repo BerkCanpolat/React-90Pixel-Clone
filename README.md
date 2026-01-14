@@ -58,3 +58,17 @@ Framer Motion kullanılarak:
 - Swiper
 
 - React Icons
+
+
+----------------------------------
+
+
+🌐 Canlı Demo
+
+🔗 https://90pixel-clone.netlify.app
+
+
+
+
+
+
