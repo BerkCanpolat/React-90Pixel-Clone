@@ -1,6 +1,6 @@
 🚀 90Pixel Website – Frontend Practice Project
 
-Bu proje, modern frontend geliştirme pratiklerini geliştirmek ve gerçek bir ajans web sitesinin etkileşimli kullanıcı deneyimini anlamak amacıyla hazırlanmıştır.
+Bu proje, modern frontend geliştirme pratiklerini geliştirmek ve gerçek bir web sitesinin etkileşimli kullanıcı deneyimini anlamak amacıyla hazırlanmıştır.
 
 Proje, 90Pixel web sitesini referans alarak, birebir kopyalamak yerine tasarım, animasyon ve kullanıcı etkileşimlerini kendi teknik yaklaşımımla yeniden üretme hedefiyle geliştirilmiştir.
 
@@ -67,8 +67,21 @@ Framer Motion kullanılarak:
 
 🔗 https://90pixel-clone.netlify.app
 
+🌐 90Pixel Orj Website (İlham Alınan)
+
+🔗 https://www.90pixel.com/tr
 
 
+
+
+
+
+https://github.com/user-attachments/assets/b1bd1ab0-455d-4ac5-a26e-8ac5d7a265fe
+
+
+
+
+https://github.com/user-attachments/assets/9649f7de-2798-4705-9117-744af306f762
 
 
 
